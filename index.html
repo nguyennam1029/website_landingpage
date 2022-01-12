@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond</title>
+    <link rel="icon" type="image/x-icon" href="images/Union.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/fontawesome/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/sty.css" />
+  </head>
+  <body>
+    <div>
+      <div class="grid wide">
+        <!-- menu pc  -->
+        <div class="menu">
+          
+
+          <ul class="menu-list ">
+            <li class="menu-item">
+              <a href="" class="menu-img">
+                <img srcset="images/logo.png 2x" alt="" />
+              </a>
+            </li>
+          </ul>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#home" class="menu-link menu-link--primary">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="#why" class="menu-link">Why us?</a>
+            </li>
+            <li class="menu-item">
+              <a href="#frea" class="menu-link">Freatures</a>
+            </li>
+            <li class="menu-item">
+              <a href="#Pricing" class="menu-link">Pricing</a>
+            </li>
+            <li class="menu-item">
+              <a href="#Contact" class="menu-link">Contact</a>
+            </li>
+          </ul>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a
+                href="#login"
+                class="menu-link button button--secondary auth-login"
+                >Login</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link button button--primary auth-signup"
+                >Signup</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- menu mobile  -->
+         <!-- menu-mobile  -->
+         <div id="menu-mobile">
+          <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+    
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <ul class="menu-list--mobile">
+                <li class="menu-item--mobile">
+                  <a
+                    href="#home"
+                    class="menu-link--mobile menu-link--mobile--primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="menu-item--mobile">
+                  <a href="#why" class="menu-link--mobile">Why us?</a>
+                </li>
+                <li class="menu-item--mobile">
+                  <a href="#frea" class="menu-link--mobile">Freatures</a>
+                </li>
+                <li class="menu-item--mobile">
+                  <a href="#Pricing" class="menu-link--mobile">Pricing</a>
+                </li>
+                <li class="menu-item--mobile">
+                  <a href="#Contact" class="menu-link--mobile">Contact</a>
+                </li>
+              </ul>
+    
+              <ul class="menu-list--user">
+                <li class="menu-item--mobile">
+                  <a
+                    href="#login"
+                    class="menu-link--mobile button-mobile button--login"
+                    >Login</a
+                  >
+                </li>
+                <li class="menu-item--mobile">
+                  <a
+                    href=""
+                    class="menu-link--mobile button-mobile button--sigup"
+                    >Signup</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <div class="menu-mobile--icon">
+            <a href="" class="menu-img">
+              <img srcset="images/logo.png 2x" alt="" />
+            </a>
+            <span  onclick="openNav()"
+              ><i class="fas fa-bars checkbox-icon" ></i></span>
+          </div>
+        </div>
+    
+        <script>
+          /* Open when someone clicks on the span element */
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+          }
+    
+          /* Close when someone clicks on the "x" symbol inside the overlay */
+          function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+          }
+        </script>
+       
+    
+        
+
+        <!-- hết mobile  -->
+        <!-- markeing  -->
+        <div id="home" class="row markeing">
+          <div class="col l-o-1 l-5 m-6 c-12 markeing-item markeing-item--top">
+            <p class="markeing-name">AWARD WINNING COMPANY</p>
+            <h1 class="markeing-heading">We Are The Best Digital Markeing</h1>
+            <p class="info-global">
+              You need to get positive results when you spend hard earned
+              revenue and time on any marketing effort. Great returns on
+              marketing and promotions.
+            </p>
+
+            <div class="markeing-btn">
+              <a href="" class="button button--primary">Get Status</a>
+              
+              <p class="markeing-btn--text menu-link button button--secondary auth-login">
+                <img
+                srcset="images/icon-play.png 2x"
+                alt=""
+                class="markeing-btn--img"
+              />
+                Watch Video</p>
+            </div>
+          </div>
+          <div class="col l-6 m-5 c-12 markeing-item">
+            <img srcset="images/img-header.png 2x" alt="" />
+          </div>
+        </div>
+
+        <!-- nhà tài trợ -->
+        <div  class="grid">
+          <div class="Donors">
+            <img srcset="images/Donors.png 2x" alt="" />
+          </div>
+        </div>
+
+        <!-- grow -->
+        <div  id="why" class="row">
+          <div class="col l-12 m-12 c-12 grow">
+            <h2 class="heading--global">Grow Your Business With Ringo</h2>
+            <p class="grow-text">
+              tempus, lectus risus In' perdiel tellus, sed faucibus ipsum ipsurn
+              nun neque.
+            </p>
+          </div>
+        </div>
+        <div class="row grow-card" >
+          <div class="col l-3 m-4 c-12">
+            <div class="card-item card-item--gloal">
+              <img
+                srcset="images/Search2.png 2x"
+                alt=""
+                class="card-item--img"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+
+          <div class="col l-3 m-4 c-12">
+            <div class="card-item card-item--gloal">
+              <img
+                srcset="images/Emial.png 2x"
+                alt=""
+                class="card-item--img card-item--img-primary"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+
+          <div id="frea" class="col l-3 m-4 c-12">
+            <div class="card-item card-item--gloal">
+              <img
+                srcset="images/Marketing.png 2x"
+                alt=""
+                class="card-item--img"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- đại lí -->
+
+        <div id="Pricing" class="row agency">
+          <div class="col l-5 m-5 c-12">
+            <img srcset="images/img-who.png 2x" alt="" class="agency-img" />
+          </div>
+          <div class="col l-5 m-5 c-12">
+            <div class="agency-text">
+              <p class="agency-primary">WHO WE ARE</p>
+              <h2 class="agency-heading--global">
+                Top #1 Marketing Agency in the World
+              </h2>
+              <p class="egency-info">
+                Nunc venenalis Iorem sed risus trlstque sent per. Duls porta,
+                rutruni tempus, lectus risus imDerdiet tellus, sed faucibus sum
+                ipsum ncn neque. Curubilu r eleirend, erut ullamcorper porta.
+                eras turpis.
+              </p>
+              <a href="" class="button button--primary egency-btn--golobal"
+                >Get Status</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- --- -->
+        <div class="row agency agency-backgrou">
+          <div class="col l-5 m-5 c-12">
+            <div class="agency-text mission-padding">
+              <p class="agency-primary">WHO WE ARE</p>
+              <h2 class="agency-heading--global">
+                Top #1 Marketing Agency in the World
+              </h2>
+              <p class="egency-info">
+                Nunc venenalis Iorem sed risus trlstque sent per. Duls porta,
+                rutruni tempus, lectus risus imDerdiet tellus, sed faucibus sum
+                ipsum ncn neque. Curubilu r eleirend, erut ullamcorper porta.
+                eras turpis.
+              </p>
+              <a href="" class="button button--primary egency-btn--golobal"
+                >Get Status</a
+              >
+            </div>
+          </div>
+          <div class="col l-5 m-5 c-12">
+            <img srcset="images/img-mission.png 2x" alt="" class="agency-img" />
+          </div>
+        </div>
+        <!-- --- -->
+        <div class="row agency">
+          <div class="col l-5 m-5 c-12">
+            <img src="images/All card.png" alt="" class="agency-img" />
+          </div>
+          <div class="col l-5 m-5 c-12">
+            <div class="agency-text">
+              <p class="agency-primary">WHO WE ARE</p>
+              <h2 class="agency-heading--global">
+                Top #1 Marketing Agency in the World
+              </h2>
+              <p class="egency-info">
+                Nunc venenalis Iorem sed risus trlstque sent per. Duls porta,
+                rutruni tempus, lectus risus imDerdiet tellus, sed faucibus sum
+                ipsum ncn neque. Curubilu r eleirend, erut ullamcorper porta.
+                eras turpis.
+              </p>
+              <a href="" class="button button--primary egency-btn--golobal"
+                >Get Status</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- blog  -->
+        <div class="row">
+          <div class="col l-12 m-12 c-12 grow">
+            <h2 class="heading--global">Our Regular Updated Blog Posts</h2>
+            <p class="grow-text">
+              tempus, lectus risus In' perdiel tellus, sed faucibus ipsum ipsurn
+              nun neque.
+            </p>
+          </div>
+        </div>
+        <div class="row grow-card">
+          <div class="col l-3 m-4 c-12">
+            <div class="">
+              <img
+                srcset="images/pc.png 2x"
+                alt=""
+                class="card-item--img card-item--img-global"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+
+          <div class="col l-3 m-4 c-12">
+            <div class="">
+              <img
+                src="images/Rectangle 4933 (1).png"
+                alt=""
+                class="card-item--img card-item--img-global"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+
+          <div class="col l-3 m-4 c-12">
+            <div class="">
+              <img
+                src="images/Rectangle 4934 (1).png"
+                alt=""
+                class="card-item--img card-item--img-global"
+              />
+              <h4 class="card-item--heading">Search Engine</h4>
+              <p class="card-item--info">
+                Twit are excet Frond, rnatie boy grub it's tell gone to pot MI
+                Mrs nut butts horse play blow
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----  -->
+        <div class="row agency agency-backgrou email-radius" id="Contact">
+          <div class="col l-5 m-5 c-12">
+            <div class="agency-text mission-padding">
+              <h2 class="agency-heading--global">Sign up to Our Newsletter</h2>
+              <p class="egency-info">
+                You need to get positive results when you spend hard earned
+                revenue and time.
+              </p>
+            </div>
+          </div>
+          <div class="col l-5 m-5 c-12">
+            <div class="input-email">
+              <input type="email" placeholder="Email" class="email-text" />
+              <a href="" class="button button--primary egency-btn--golobal"
+                >Get Status</a
+              >
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <footer >
+        <div class="footer">
+          <div class="footer-item footer-item--primary">
+            <img src="images/Logo (2).png" alt="" class="footer-item--img" />
+
+            <p class="footer-info">
+              Nulla non otllo venicula, ultricles lorem a, allquarn nes!.
+              Etlam et lorem lobortls, cony allis nunc.
+            </p>
+            <div class="footer-icon">
+              <img srcset="images/Facebook.png 2x" alt=""  class="footer-item--img"/>
+              <img srcset="images/Instagram.png 2x" alt=""  class="footer-item--img"/>
+              <img srcset="images/Twitter.png 2x" alt=""  class="footer-item--img"/>
+            </div>
+          </div>
+          <div class="footer-item">
+            <p class="footer-heading">Services</p>
+            <ul class="footer-list">
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <p class="footer-heading">Services</p>
+            <ul class="footer-list">
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <p class="footer-heading">Services</p>
+            <ul class="footer-list">
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+              <li class="footer-item">Email Marketing Social</li>
+            </ul>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <p class="footer-copyright">Nguyễn Văn Nam</p>
+      </footer>
+
+      <!-- back top  -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="nut">Top</button>
+      <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 250px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+  </body>
+</html>
